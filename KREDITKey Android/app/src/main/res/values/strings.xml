@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">K Key</string>
+    <string name="Begin">Begin</string>
+    <string name="Info"> With 2-step verification, whenever you sign in to your KREDIT account you will need your password and a code that this app will generate.\n </string>
+    <string name="todo">TODO</string>
+
+    <string name="version">Version 1.0.2</string>
+    <string name="action">Which action do you want to perform?</string>
+    <string name="delete">Are you sure to delete?</string>
+
+</resources>

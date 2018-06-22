@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5pt"
+        android:paddingBottom="5pt"
+        android:text="Action!"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/roboto"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/dlMessage"
+        android:text="@string/delete"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:stretchColumns="2">
+
+        <TableRow
+            android:gravity="center">
+            <android.support.v7.widget.AppCompatButton
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Yes"
+                android:id="@+id/btYes"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btNo"
+                style="?android:attr/borderlessButtonStyle"
+                android:fontFamily="@font/roboto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NO"
+                android:textColor="@color/colorPrimaryDark" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
